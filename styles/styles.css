@@ -146,6 +146,11 @@ header {
     gap: 68px 0;
 }
 
+.atributos2 .resistence {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
 
 .atributos2 p {
     text-align: center;
@@ -170,4 +175,5 @@ header {
 .atributos2 input.txtnbr {
     border-bottom: 1px solid black;
     width: 35px;
+    height: 100%;
 }
