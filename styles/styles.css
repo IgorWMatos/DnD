@@ -6,7 +6,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .parent {
@@ -15,8 +15,7 @@
         "header header header"
         "atrib stats personalidade"
         "atrib atqMagia habilidades"
-        "idioma equipamento habilidades"
-    ;
+        "idioma equipamento habilidades";
 
     grid-column-gap: 24px;
     grid-row-gap: 20px;
@@ -71,7 +70,6 @@ header {
 
 .atributos .strength {
     margin-top: 40px;
-
 }
 
 .atrib .resistPericia {
@@ -97,7 +95,6 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
-
 }
 
 .atqMagia {
@@ -138,10 +135,15 @@ header {
     background-repeat: no-repeat;
 }
 
+.boxAtribs {
+    display: flex;
+    flex-direction: column;
+}
+
 .atrib .atributos2 {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 70%;
     width: 260px;
     gap: 68px 0;
 }
@@ -167,13 +169,34 @@ header {
     margin-left: 70px;
 }
 
-.atributos2 input.chkbx {
+input.chkbx {
     margin-left: 35px;
     border-radius: 50%;
 }
 
-.atributos2 input.txtnbr {
+input.txtnbr {
     border-bottom: 1px solid black;
     width: 35px;
     height: 100%;
+}
+
+.atrib .atributos3 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 260px;
+    gap: 68px 0;
+}
+
+.pericias {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+
+.pericias p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
 }
