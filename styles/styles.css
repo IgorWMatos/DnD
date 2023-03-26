@@ -210,13 +210,29 @@ input.txtnbr {
 
 .perception {
     margin-top: 23px;
-    margin-left: 10px;
+    margin-left: 65px;
     font-size: 18px;
     text-align: center;
 }
 
 .idiomaeprof {
     font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.stats1 {
+    height: 100px;
+    display: flex;
+    margin-left: 52px;
+    margin-top: 17px;
+    flex-direction: row;
+    gap: 45px;
+    align-items: end;
+}
+
+.stats1 p {
+    width: 80px;
     text-align: center;
     font-weight: 700;
 }
